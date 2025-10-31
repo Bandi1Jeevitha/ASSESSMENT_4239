@@ -27,14 +27,16 @@ export default function Home() {
 
   return (
     <Layout>
-      <div className="mb-8">
-        <div className="flex flex-col sm:flex-row gap-4">
+      <div className="mb-12">
+        <div className="flex flex-col sm:flex-row gap-3">
           <input
             type="text"
             placeholder="Search experiences"
-            className="flex-1 px-4 py-3 border-2 border-accent rounded placeholder-muted-foreground"
+            className="flex-1 px-4 py-3 border-2 border-accent rounded placeholder-muted-foreground text-sm"
           />
-          <button className="btn-primary">Search</button>
+          <button className="btn-primary text-sm px-8 py-3 flex-shrink-0">
+            Search
+          </button>
         </div>
       </div>
 
