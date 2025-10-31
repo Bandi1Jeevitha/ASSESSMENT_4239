@@ -113,7 +113,7 @@ export default function Details() {
             />
           </div>
 
-          <div className="border-2 border-accent p-6 rounded-lg mb-6">
+          <div className="border-2 border-border p-6 rounded-lg mb-6">
             <h1 className="text-2xl font-bold text-foreground mb-4">
               {experience.title}
             </h1>

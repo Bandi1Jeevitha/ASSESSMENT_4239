@@ -30,7 +30,7 @@ export default function Layout({ children }: LayoutProps) {
             <input
               type="text"
               placeholder="Search experiences"
-              className="w-full px-4 py-2 bg-secondary border-2 border-accent rounded text-sm placeholder-muted-foreground"
+              className="w-full px-4 py-2 bg-secondary border-2 border-border rounded text-sm placeholder-muted-foreground"
             />
           </div>
 
