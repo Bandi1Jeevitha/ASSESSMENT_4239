@@ -95,12 +95,12 @@ export default function Details() {
   return (
     <Layout>
       <div className="mb-6">
-        <Link
-          to="/"
+        <button
+          onClick={() => navigate("/")}
           className="text-sm text-muted-foreground hover:text-foreground flex items-center gap-2"
         >
           ← Details
-        </Link>
+        </button>
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
