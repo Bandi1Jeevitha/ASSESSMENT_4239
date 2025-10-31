@@ -54,13 +54,13 @@ export default function Home() {
       )}
 
       {!loading && !error && (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
           {experiences.map((experience) => (
             <div
               key={experience.id}
-              className="bg-card rounded overflow-hidden border border-border hover:shadow-lg transition-shadow"
+              className="bg-card rounded overflow-hidden border border-border hover:shadow-md transition-shadow flex flex-col"
             >
-              <div className="aspect-video overflow-hidden bg-muted">
+              <div className="aspect-video overflow-hidden bg-muted relative">
                 <img
                   src={experience.image}
                   alt={experience.title}
@@ -68,22 +68,21 @@ export default function Home() {
                 />
               </div>
 
-              <div className="p-4">
-                <div className="flex items-start justify-between gap-2 mb-2">
-                  <h3 className="font-semibold text-sm text-foreground">
+              <div className="p-4 flex flex-col flex-1">
+                <div className="mb-3">
+                  <h3 className="font-semibold text-sm text-foreground mb-1">
                     {experience.title}
                   </h3>
+                  <p className="text-xs font-medium text-muted-foreground">
+                    {experience.location}
+                  </p>
                 </div>
 
-                <p className="text-xs text-muted-foreground mb-2">
-                  {experience.location}
-                </p>
-
-                <p className="text-xs text-muted-foreground mb-4 line-clamp-2">
+                <p className="text-xs text-muted-foreground mb-4 line-clamp-2 flex-1">
                   {experience.description}
                 </p>
 
-                <div className="flex items-center justify-between">
+                <div className="mb-3">
                   <span className="text-sm font-semibold text-foreground">
                     From ₹{experience.price}
                   </span>
@@ -91,7 +90,7 @@ export default function Home() {
 
                 <Link
                   to={`/details/${experience.id}`}
-                  className="btn-primary w-full text-center block mt-3"
+                  className="btn-primary w-full text-center block text-sm py-2"
                 >
                   View Details
                 </Link>
