@@ -90,7 +90,7 @@ const experiences: Experience[] = [
     longDescription:
       "Get your adrenaline rush with a thrilling bungee jump from a 120m high platform. All safety equipment provided.",
     image:
-      "https://images.unsplash.com/photo-1549887534-f2cb8b199ef5?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1533900298318-6b8da08a523e?w=800&h=600&fit=crop",
     price: 1999,
     duration: "1 hour",
     minAge: 18,
@@ -109,7 +109,7 @@ const experiences: Experience[] = [
     longDescription:
       "Experience the thrill of paragliding with expert instructors over beautiful mountain landscapes.",
     image:
-      "https://images.unsplash.com/photo-1501436513026-de2755fbb11a?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop",
     price: 1499,
     duration: "2 hours",
     minAge: 15,
@@ -127,7 +127,7 @@ const experiences: Experience[] = [
     longDescription:
       "Trek through scenic mountain trails and discover hidden waterfalls with our expert guides.",
     image:
-      "https://images.unsplash.com/photo-1551632786-de3edfdc9bfc?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800&h=600&fit=crop",
     price: 2499,
     duration: "5 hours",
     minAge: 16,
@@ -145,7 +145,7 @@ const experiences: Experience[] = [
     longDescription:
       "Explore the pristine forests of Wayanad with an experienced guide. Spot rare wildlife and enjoy nature at its best.",
     image:
-      "https://images.unsplash.com/photo-1552400997-dac50eee35d7?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&h=600&fit=crop",
     price: 799,
     duration: "3 hours",
     minAge: 10,
