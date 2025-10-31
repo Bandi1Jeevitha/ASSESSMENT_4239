@@ -11,7 +11,7 @@ const experiences: Experience[] = [
     longDescription:
       "Curated small-group experience. Certified guide. Safety first with gear included. Helmet and Life jackets along with an expert will accompany in kayaking.",
     image:
-      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1505142468610-359e7d316be0?w=800&h=600&fit=crop",
     price: 999,
     duration: "2 hours",
     minAge: 10,
@@ -32,7 +32,7 @@ const experiences: Experience[] = [
     longDescription:
       "Experience the breathtaking sunrise at Nandi Hills with a certified guide. Perfect for photography and nature lovers.",
     image:
-      "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop",
     price: 899,
     duration: "3 hours",
     minAge: 8,
@@ -52,7 +52,7 @@ const experiences: Experience[] = [
     longDescription:
       "Explore the lush coffee plantations of Coorg with an expert guide. Learn about coffee cultivation and enjoy fresh brew.",
     image:
-      "https://images.unsplash.com/photo-1516426122078-8023e06b2a91?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&h=600&fit=crop",
     price: 1299,
     duration: "4 hours",
     minAge: 12,
@@ -71,7 +71,7 @@ const experiences: Experience[] = [
     longDescription:
       "Explore the mangrove forests and spot wildlife on a thrilling boat cruise through the Sundarbans.",
     image:
-      "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&h=600&fit=crop",
     price: 999,
     duration: "2.5 hours",
     minAge: 5,
@@ -90,7 +90,7 @@ const experiences: Experience[] = [
     longDescription:
       "Get your adrenaline rush with a thrilling bungee jump from a 120m high platform. All safety equipment provided.",
     image:
-      "https://images.unsplash.com/photo-1529407828158-c3211de63dd8?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1549887534-f2cb8b199ef5?w=800&h=600&fit=crop",
     price: 1999,
     duration: "1 hour",
     minAge: 18,
@@ -102,32 +102,32 @@ const experiences: Experience[] = [
   },
   {
     id: "6",
-    title: "Kayaking",
-    location: "Udupi, Karnataka",
+    title: "Paragliding Adventure",
+    location: "Bir Billing",
     description:
       "Curated small-group experience. Certified guide. Safety first with gear included.",
     longDescription:
-      "Curated small-group experience. Certified guide. Safety first with gear included.",
+      "Experience the thrill of paragliding with expert instructors over beautiful mountain landscapes.",
     image:
-      "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800&h=600&fit=crop",
-    price: 999,
+      "https://images.unsplash.com/photo-1501436513026-de2755fbb11a?w=800&h=600&fit=crop",
+    price: 1499,
     duration: "2 hours",
-    minAge: 10,
+    minAge: 15,
     availability: [
-      { date: "2025-10-22", times: ["07:00 am", "09:00 am"] },
-      { date: "2025-10-23", times: ["07:00 am", "09:00 am"] },
+      { date: "2025-10-22", times: ["08:00 am", "10:00 am"] },
+      { date: "2025-10-23", times: ["08:00 am", "10:00 am"] },
     ],
   },
   {
     id: "7",
     title: "Volcano Trekking",
-    location: "Hawaii",
+    location: "Rishikesh",
     description:
       "Curated small-group experience. Certified guide. Safety first with gear included.",
     longDescription:
-      "Trek to the top of an active volcano and witness the power of nature up close.",
+      "Trek through scenic mountain trails and discover hidden waterfalls with our expert guides.",
     image:
-      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1551632786-de3edfdc9bfc?w=800&h=600&fit=crop",
     price: 2499,
     duration: "5 hours",
     minAge: 16,
@@ -139,13 +139,13 @@ const experiences: Experience[] = [
   {
     id: "8",
     title: "Forest Hiking",
-    location: "Coorg",
+    location: "Wayanad",
     description:
       "Curated small-group experience. Certified guide. Safety first with gear included.",
     longDescription:
-      "Explore the pristine forests of Coorg with an experienced guide. Spot rare wildlife and enjoy nature at its best.",
+      "Explore the pristine forests of Wayanad with an experienced guide. Spot rare wildlife and enjoy nature at its best.",
     image:
-      "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1552400997-dac50eee35d7?w=800&h=600&fit=crop",
     price: 799,
     duration: "3 hours",
     minAge: 10,
