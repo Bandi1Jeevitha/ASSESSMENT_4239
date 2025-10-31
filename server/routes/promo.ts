@@ -25,9 +25,7 @@ export const handleValidatePromo: RequestHandler = (req, res) => {
   }
 
   const upperCode = code.toUpperCase().trim();
-  const promo = promoCodes.find(
-    (p) => p.code === upperCode && p.active
-  );
+  const promo = promoCodes.find((p) => p.code === upperCode && p.active);
 
   if (!promo) {
     return res.json({

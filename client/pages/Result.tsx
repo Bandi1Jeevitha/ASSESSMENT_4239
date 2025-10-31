@@ -60,10 +60,7 @@ export default function Result() {
               Ref ID: {result.bookingId}
             </p>
 
-            <button
-              onClick={() => navigate("/")}
-              className="btn-secondary"
-            >
+            <button onClick={() => navigate("/")} className="btn-secondary">
               Back to Home
             </button>
           </div>
@@ -89,16 +86,10 @@ export default function Result() {
             <p className="text-muted-foreground mb-8">{result.message}</p>
 
             <div className="flex gap-4 justify-center">
-              <button
-                onClick={() => navigate("/")}
-                className="btn-secondary"
-              >
+              <button onClick={() => navigate("/")} className="btn-secondary">
                 Back to Home
               </button>
-              <button
-                onClick={() => navigate(-1)}
-                className="btn-primary"
-              >
+              <button onClick={() => navigate(-1)} className="btn-primary">
                 Try Again
               </button>
             </div>

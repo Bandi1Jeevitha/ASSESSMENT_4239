@@ -88,7 +88,7 @@ export default function Details() {
   }
 
   const currentSlot = experience.availability.find(
-    (slot) => slot.date === booking.selectedDate
+    (slot) => slot.date === booking.selectedDate,
   );
   const availableTimes = currentSlot?.times || [];
 
@@ -122,7 +122,9 @@ export default function Details() {
             </p>
 
             <div className="mb-6">
-              <h3 className="font-semibold text-foreground mb-4">Choose date</h3>
+              <h3 className="font-semibold text-foreground mb-4">
+                Choose date
+              </h3>
               <div className="flex gap-3 flex-wrap">
                 {experience.availability.map((slot) => {
                   const date = new Date(slot.date);
@@ -154,7 +156,9 @@ export default function Details() {
             </div>
 
             <div className="mb-6">
-              <h3 className="font-semibold text-foreground mb-4">Choose time</h3>
+              <h3 className="font-semibold text-foreground mb-4">
+                Choose time
+              </h3>
               <div className="flex gap-3 flex-wrap">
                 {availableTimes.map((time) => (
                   <button
@@ -228,7 +232,9 @@ export default function Details() {
 
               <div className="pt-4 border-t border-border">
                 <div className="flex justify-between mb-2">
-                  <span className="text-sm text-muted-foreground">Subtotal</span>
+                  <span className="text-sm text-muted-foreground">
+                    Subtotal
+                  </span>
                   <span className="font-semibold text-foreground">
                     ₹{experience.price * booking.quantity}
                   </span>
@@ -245,10 +251,7 @@ export default function Details() {
                 <div className="flex justify-between">
                   <span className="font-semibold text-foreground">Total</span>
                   <span className="text-lg font-bold text-foreground">
-                    ₹
-                    {Math.floor(
-                      experience.price * booking.quantity * 1.05
-                    )}
+                    ₹{Math.floor(experience.price * booking.quantity * 1.05)}
                   </span>
                 </div>
               </div>

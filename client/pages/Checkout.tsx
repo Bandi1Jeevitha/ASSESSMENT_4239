@@ -228,7 +228,10 @@ export default function Checkout() {
                   }
                   className="w-4 h-4"
                 />
-                <label htmlFor="terms" className="text-sm text-muted-foreground">
+                <label
+                  htmlFor="terms"
+                  className="text-sm text-muted-foreground"
+                >
                   I agree to the terms and safety policy
                 </label>
               </div>
@@ -256,7 +259,9 @@ export default function Checkout() {
 
             <div className="space-y-3 mb-6">
               <div className="flex justify-between">
-                <span className="text-sm text-muted-foreground">Experience</span>
+                <span className="text-sm text-muted-foreground">
+                  Experience
+                </span>
                 <span className="text-sm font-semibold text-foreground">
                   Kayaking
                 </span>
